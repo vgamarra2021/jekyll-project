@@ -118,10 +118,11 @@
 .instructions {
 	width: fit-content;
 	margin: rem(32px) auto 0;
-	color: #9e9b9a;
+	color: white;
 
 	p:not(:last-child) {
 		margin-bottom: rem(4px);
+		color: white !important;
 	}
 
 	@media (min-width: rem(601px)) {
@@ -129,6 +130,7 @@
 
 		p {
 			margin: 0 rem(16px);
+			
 		}
 	}
 }
@@ -152,6 +154,7 @@
 
 		.instructions p:not(:last-child) {
 			margin-bottom: rem(16px);
+			color: white !important;
 		}
 	}
 

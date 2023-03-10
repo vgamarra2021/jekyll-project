@@ -17,7 +17,7 @@
 
 .footer {
 	color: #9e9b9a;
-
+	font-size: 10px !important;
 	a:hover, a:focus {
 		color: #fff;
 	}
@@ -29,9 +29,10 @@
 
 .title {
 	text-transform: uppercase;
-	font-weight: 900;
 	font-size: 2em;
-	font-family: 'Montserrat', 'Futura', sans-serif;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-style:normal;
+	font-weight:800;
 
 	a {
 		text-decoration: none;
