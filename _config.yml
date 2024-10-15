@@ -6,6 +6,6 @@ permalink: /:title/
 
 exclude: [vendor, "Gemfile", "Gemfile.lock", "README.md", "LICENCE"]
 include: ["_js", "_redirects", "_headers"]
-
+encoding: utf-8
 sass:
   style: compressed
