@@ -285,8 +285,10 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-sass-converter (= 1.5.2)
   kramdown (>= 2.3.1)
   nokogiri (>= 1.12.5)
+  public_suffix (~> 5.1.1)
   webrick (~> 1.7)
 
 BUNDLED WITH
